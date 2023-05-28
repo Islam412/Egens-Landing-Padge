@@ -34,3 +34,14 @@ body{
     border-radius: 40px;
 
 }
+
+.navbar-fixed-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-active{
+    background-color: #fff;
+    box-shadow: 5px -1px 12px -5px grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
