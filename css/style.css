@@ -1,6 +1,10 @@
 body{
-    background-color: #ffffff;
     font-family: 'Jost', sans-serif;
+}
+
+.banner-bg{
+    background-color: #E9EDf4;
+
 }
 
 .nav-link{
@@ -44,4 +48,27 @@ body{
     box-shadow: 5px -1px 12px -5px grey;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.feature-icon{
+    height: 98px;
+    max-width: 98px;
+    width: 100%;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    background-color: #f2f5fb;
+}
+.feature-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #54545f;
+    line-height: 1.666;
+    margin-bottom: 0;
+}
+
+.seperator{
+    width: 2% !important;
 }
