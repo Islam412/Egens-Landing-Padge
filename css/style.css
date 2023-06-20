@@ -1,74 +1,139 @@
 body{
+
     font-family: 'Jost', sans-serif;
 }
 
 .banner-bg{
-    background-color: #E9EDf4;
-
+    background-color: #E9EDF4;
 }
 
 .nav-link{
-   font-size: 18px;
-   font-weight: 500;
-   color: black;
+    font-size: 18px;
+    font-weight: 500;
+    color:black;
 }
 
 .nav-item{
     margin-right: 40px;
 }
-.banner-subtitl{
+
+.banner-subtitle{
     color: #7153d9;
     font-size: 24px;
     font-weight: 500;
 }
+
 .banner-title{
     font-size: 72px;
-    font-weight: 700;
+    font-weight: 500;
 }
-.bannar-text{
-    color: #54545f;
+
+.banner-text{
     font-size: 24px;
     font-weight: 400;
+    color: #54545f; 
 }
+
 .banner-btn{
     text-decoration: none;
     color: white;
-    background: linear-gradient(135deg, #7153d9 0%, #5435be 45%, #4526b1 66%);
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
     padding: 15px 40px;
     border-radius: 40px;
-
 }
 
-.navbar-fixed-top {
+header.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-fixed-top{
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
-.nav-active{
-    background-color: #fff;
+
+.nav-active {
+    background-color:#fff;
     box-shadow: 5px -1px 12px -5px grey;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .feature-icon{
-    height: 98px;
-    max-width: 98px;
-    width: 100%;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-    background-color: #f2f5fb;
+    background-color: #E9EDF4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 6.2;
 }
+
 .feature-text{
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
     color: #54545f;
-    line-height: 1.666;
-    margin-bottom: 0;
+}
+
+.img-section{
+    min-height: 451px;
 }
 
 .seperator{
     width: 2% !important;
+}
+
+.section-subtitle{
+    color: #7153d9;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section-title{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.section-text{
+    font-size: 21px;
+    font-weight: 400;
+    color: #54545f; 
+}
+
+.feature2-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.feature2-p{
+    font-size: 18px;
+    color: #54545f;
+}
+
+.feature2-list{
+    list-style: none;
+}
+
+.feature2-list li::before{
+    content: "\2022";
+    color: #4526b1;
+    font-size: 30px;
+}
+
+.service-card{
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    border-radius: 20px;
+    padding: 50px 40px;
+    
+}
+
+.service-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.service-card-title a{
+    text-decoration: none;
+    color: black;
 }
